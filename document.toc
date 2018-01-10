@@ -1,0 +1,14 @@
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Mengenoperationen}{3}{0}{1}
+\beamer@sectionintoc {2}{Union}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Syntax}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Beispiel}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Union All}{13}{0}{2}
+\beamer@sectionintoc {3}{Intersect}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Syntax}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Beispiel}{18}{0}{3}
+\beamer@subsectionintoc {3}{3}{Beispiel (MySQL)}{21}{0}{3}
+\beamer@sectionintoc {4}{Minus}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Syntax}{25}{0}{4}
+\beamer@subsectionintoc {4}{2}{Beispiel}{26}{0}{4}
+\beamer@subsectionintoc {4}{3}{Beispiel (MySQL)}{29}{0}{4}

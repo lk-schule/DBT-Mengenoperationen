@@ -1,0 +1,18 @@
+\frametitle{Beispiel (MySQL)}
+\framesubtitle{Minus}
+\lstinline|MINUS| ist ebenfalls nicht in MySQL enthalten. Hier lässt sich zum Glück auch einfach eine Lösung finden: \pause
+\begin{lstlisting}
+SELECT verkaeufer_id
+FROM verkaeufer
+LEFT OUTER JOIN bestellung
+ON verkaeufer.verkaeufer_id = bestellung.verkaeufer_id
+WHERE bestellung.verkaeufer_id IS NULL
+\end{lstlisting}
+\pftn{https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/}
+\pause
+\begin{tabular}{l}
+\textbf{verkaeufer\_id} \\ \hline
+1000 \\
+3000 \\
+4000 \\
+\end{tabular}
